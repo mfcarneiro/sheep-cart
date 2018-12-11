@@ -4,10 +4,8 @@
   </div>
 </template>
 
-
 <style>
 .app-background-color {
 	background: #f2f6fa;
 }
-
 </style>
