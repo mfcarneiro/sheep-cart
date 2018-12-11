@@ -1,4 +1,3 @@
-import { as } from './';
-import { as } from './';
+import { routes as dashboard } from './dashboard';
 
-export default [];
+export default [...dashboard];
