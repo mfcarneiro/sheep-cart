@@ -1,8 +1,13 @@
 <template>
-  <div id="app">
-    <div id="nav"></div>
+  <div id="app" class="app-background-color">
+    <router-view></router-view>
   </div>
 </template>
 
-<style lang="scss">
+
+<style>
+.app-background-color {
+	background: #f2f6fa;
+}
+
 </style>
