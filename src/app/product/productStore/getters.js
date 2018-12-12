@@ -1,1 +1,1 @@
-export default {};
+export const getProductItens = state => state.productItens;
