@@ -1,7 +1,7 @@
-import { UPDATE_PRODUCT_ITEM } from './mutation-types';
+import * as types from './mutation-types';
 
 export default {
-	[UPDATE_PRODUCT_ITEM](state, payload) {
+	[types.UPDATE_PRODUCT_ITEM](state, payload) {
 		state.productItems = payload;
 	}
 };

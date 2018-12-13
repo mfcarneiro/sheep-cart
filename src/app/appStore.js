@@ -1,4 +1,4 @@
-//import { vuex as cartStore } from './cart';
 import { vuex as productStore } from './product';
+import { vuex as cartStore } from './cart';
 
-export default { productStore };
+export default { productStore, cartStore };
