@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"serve": "vue-cli-service serve",
-		"start": "concurrently \"yarn run server\" \"yarn run serve\"",
+		"start": "concurrently -k \"yarn run server\" \"yarn run serve\"",
 		"build": "vue-cli-service build",
 		"lint": "vue-cli-service lint"
 	},
@@ -19,8 +19,8 @@
 		"@vue/cli-service": "^3.0.5",
 		"@vue/eslint-config-prettier": "^4.0.0",
 		"axios": "^0.18.0",
-		"concurrently": "^4.1.0",
 		"babel-eslint": "^10.0.1",
+		"concurrently": "^4.1.0",
 		"eslint": "^5.8.0",
 		"eslint-plugin-vue": "^5.0.0-0",
 		"node-sass": "^4.9.0",
